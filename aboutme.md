@@ -1,16 +1,18 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: Enterprise-grade citizen developer with an entrepreneurial edge
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+I'm Eric.
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+Let me introduce you to a few of my little friends...
 
-What else do you need?
-
-### My story
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+**Power Apps:** Extremely proficient, focused on Canvas Apps and premium/custom connectors
+**Power Automate:** Very proficient; focused on maintainability, long-term reliable Flows
+**Power BI:** Not too shabby; my least favorite buddy, but we're going places too
+**Sharepoint:** Proficient at using Sharepoint as a PowerApps data source
+**Python:** My new friend!; mostly deep explorations in Azure Functions and Jupyter Notebooks
+**Azure Services:** Proficient in many services including Azure Functions, Application Insights, Logic Apps, Azure SQL
+**VS Code:** Brother!
+**Techsmith Snagit and Camtasia:** Yep, best buds!
