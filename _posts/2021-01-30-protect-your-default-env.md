@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Protect your default environment!
-subtitle: Set DLP's and lockdown now
+title: Set better `default`'s!
+subtitle: Set DLP's and protect your PowerApps `default` env
 tags: [Powerapps, ALM, governance, DLP]
 comments: true
 ---
@@ -12,7 +12,8 @@ comments: true
 ### Create a strict Data Loss Prevention policy
 
 **Why do this?**
-All licensed users (PowerApps, D365 or O365) have `Environment Maker` role in the [`default` env](https://docs.microsoft.com/en-us/power-platform/admin/environments-overview#the-default-environment). You cannot turn this off. That means anyone in your org with a license can create a PowerApp in the `default` env. If you have no Data Loss Prevention (DLP) policies in place, user's could create apps that use connectors you do not approve of.
+
+All licensed PowerApps users (PowerApps-specific, D365 or certain O365 licenses) have `Environment Maker` role in the [`default` env](https://docs.microsoft.com/en-us/power-platform/admin/environments-overview#the-default-environment). You cannot turn this off. That means anyone in your org with a license can create a PowerApp in the `default` env. If you have no Data Loss Prevention (DLP) policies in place, user's could create apps that use connectors you do not approve of.
 
 By setting a special DLP for the `default` environment, you "lock down" the environment to only allow connections to be made to Microsoft products (OneDrive, Sharepoint, etc.) thus better protecting your data. 
 
