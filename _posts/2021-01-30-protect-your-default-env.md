@@ -18,24 +18,24 @@ By setting a special DLP for the `default` environment, you "lock down" the envi
 **Steps to complete**
 1. Visit `admin.powerplatform.com`
 2. Select `Data policies` then `+ New Policy`
-![](./assets/2021-01-30-19-22-17.png)
+![](./assets/img/2021-01-30-19-22-17.png)
 3. Name the DLP. Be sure to include the words `default_env` as it only applies to this environment
 4. Click `Next`
-![](./assets/2021-01-30-19-23-15.png)
+![](./assets/img/2021-01-30-19-23-15.png)
 5. Click the `Blockable` column to show all `No` values first
-![](./assets/2021-01-30-19-24-37.png)
+![](./assets/img/2021-01-30-19-24-37.png)
 6. Select all Connectors then deselect all `No` values
 7. Click `the three dots` next to one of the Blockable Connectors and select `Block`
   - This will move all selected Connectors to the `Blocked` tab
   - Users will now ONLY be able to connect to Microsoft connectors
 8. Click `Next`
-![](./assets/2021-01-30-19-26-22.png)
+![](./assets/img/2021-01-30-19-26-22.png)
 9. Select `Exclude certain environments` from the Define Scope screen the click `Next`
-![](./assets/2021-01-30-19-27-29.png)
+![](./assets/img/2021-01-30-19-27-29.png)
 10. Select only the `default` environment then click `Next`
-![](./assets/2021-01-30-19-28-04.png)
+![](./assets/img/2021-01-30-19-28-04.png)
 11. Review to ensure all items look correct then click `Create policy`
-![](./assets/2021-01-30-19-31-54.png)
+![](./assets/img/2021-01-30-19-31-54.png)
 
 **Next steps**
 - After the `default` env has the strictest DLP in place, create a `DEV` and a `PROD` environment to provide a natural progression for app developers. You can create less restrictive DLP's for these environments.
