@@ -10,7 +10,7 @@ comments: true
 
 All licensed PowerApps users (PowerApps-specific, D365 or certain O365 licenses) have `Environment Maker` role in the [`default` env](https://docs.microsoft.com/en-us/power-platform/admin/environments-overview#the-default-environment). You cannot turn this off. That means anyone in your org with a license can create a PowerApp in the `default` env. If you have no Data Loss Prevention (DLP) policies in place, user's could create apps that use connectors you do not approve of.
 
-By setting a special DLP for the `default` environment, you "lock down" the environment to only allow connections to be made to Microsoft products (OneDrive, Sharepoint, etc.) thus better protecting your data. 
+By setting a special DLP for the `default` environment, you "lock down" the environment to only allow certain connections to be made within PowerApps (OneDrive, Sharepoint, etc.) thus better protecting your data. 
 
 **Pre-requisites**
 - You will need `Environment Admin` [permissions](https://docs.microsoft.com/en-us/power-platform/admin/database-security#predefined-security-roles).
@@ -32,8 +32,9 @@ By setting a special DLP for the `default` environment, you "lock down" the envi
 ![](../assets/img/2021-01-30-19-26-22.png)
 9. Select `Exclude certain environments` from the Define Scope screen the click `Next`
 ![](../assets/img/2021-01-30-19-27-29.png)
-10. Select only the `default` environment then click `Next`
-![](../assets/img/2021-01-30-19-28-04.png)
+10. Select all environments *except* the `default` environment then click `Add to policy`
+**Critical:** The UI is misleading here. Because you selected `Exclude certain environments` from the previous step, you are actually selecting environments to *exclude* from the policy (even though the heading says "Add to policy"!)
+![](../assets/img/2021-02-08-20-13-57.png)
 11. Review to ensure all items look correct then click `Create policy`
 ![](../assets/img/2021-01-30-19-31-54.png)
 
